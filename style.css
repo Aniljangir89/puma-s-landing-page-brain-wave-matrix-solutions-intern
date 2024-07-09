@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    --tw-shadow: 0 0 transparent;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.this-is-header {
+    background-color: #0a0a0a;
+    height: 80px;
+    width: 100%;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navlinks {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+    margin-left: 30px;
+}
+
+.firstpart {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.navlinks {
+    margin-left: 30px;
+    /* Adjust as needed */
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+}
+
+
+.update1 {
+    margin-right: 30px;
+    align-items: center;
+    /* Adjust as needed */
+}
+
+.resize {
+    height: 24px;
+    width: 28px;
+   
+    border-radius: 50%;
+}
+
+.resize:hover {
+    background-color: #cecece;
+}
+
+.btn {
+    padding: 6px 25px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+.icons{
+    border-radius: 50%;
+}
+
+/* .x:hover {
+    border-radius: 20px;
+    background-color: rgba(163, 162, 161, 0.808);
+
+} */
+
+.sec1 {
+    height: 50vh;
+    background-color: rgba(240, 50, 196);
+    width: 100%;
+}
+
+.cont {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cont h1 {
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.cont h2 {
+    font-size: 150%;
+    background-color: transparent;
+    color: currentcolor;
+    line-height: 1.428;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-color: currentcolor;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.cont p {
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.sec2 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.about ul li {
+
+    margin-right: 30px;
+}
+
+.filter {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.btn2 {
+    border: 1px solid rgba(161, 168, 175);
+    padding: 10px 25px;
+    font-weight: 540;
+}
+
+.btn2:hover {
+    border: 1px solid black;
+}
+
+.contents {
+    padding-top: 30px;
+}
+
+.contents p {
+    margin-top: 15px;
+}
+
+.gander a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-weight: 650;
+    background-color: white;
+    padding: 8px 15px;
+}
+
+.gander {
+    padding-top: 20px;
+
+}
+
+.cont1 {
+    text-align: center;
+}
+
+.cont1 h1 {
+    font-size: 250%;
+
+}
+
+.cont1 h2 {
+    font-size: 1.2rem;
+    font-weight: 350;
+}
+
+.cont2 {
+    display: flex;
+    align-items: center;
+    /* no rpeat center means-> take bcg at center */
+    justify-content: center;
+
+
+}
+
+.choice1 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #e363b7;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.choice {
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    width: 130px;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.choice1 h1 {
+    text-align: center;
+    font-size: .95rem;
+    overflow: hidden;
+    color: #fff;
+}
+
+.videos {
+    position: relative;
+    min-height: 70vh;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.shop-now {
+    position: absolute;
+
+    bottom: 50px;
+    /* Adjust top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    padding: 10px 20px;
+}
+
+.shop-now a {
+    text-decoration: none;
+    color: #333;
+    /* Link color */
+    font-weight: bold;
+}
+
+.sec5 {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    height: 105vh;
+}
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "a b";
+    gap: 1.25rem;
+    margin-left: 30px;
+}
+
+.link1 img {
+    background-color: transparent;
+    color: currentcolor;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    position: relative;
+}
+
+.brand1 {
+    width: 100vh;
+    height: 105vh;
+    background-color: #b1b0ad8f;
+}
+
+.conts {
+    text-align: center;
+}
+
+.conts img {
+    text-align: center;
+    width: 66%;
+}
+
+.conts h1 {
+    font-size: 1.2rem;
+    font-weight: 650;
+}
+
+.conts {
+    font-style: 1.2rem;
+    font-weight: 30;
+}
+
+.shopping {
+    margin-top: 25px;
+}
+
+.shopping a {
+    text-decoration: none;
+    font-weight: 650;
+    color: white;
+    background-color: black;
+    padding: 15px 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.social2 img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.foot {
+    background-color: #677c7c9e;
+    height: 300px;
+
+}
+
+.social2 {
+    margin-top: 30px;
+}
+
+.explore img {
+    height: 60px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sec6 {
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.sec6 h1 {
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+.app {
+    margin-top: 30px;
+}
+
+.explore img:hover {
+    border: 2px solid white;
+}
+
+.option img {
+    height: 40px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.option {
+    margin: 20px;
+}
+
+.flag img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+.flag {
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    padding: 7px 20px;
+}
+.happy p{
+    font-size: .8rem;
+    color: #777675;
+}
+
+.payment {
+    justify-content: space-between;
+}
+
+.flag h2 {
+    padding-left: 10px;
+}
+.happy{
+  padding-top: 40px;
+}
